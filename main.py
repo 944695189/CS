@@ -256,7 +256,7 @@ class RegisterHandler(RequestHandler):
             print('Registration failed with error:', e)
             self.write(json.dumps({'message': 'Registration failed. Please try again later.'}))
         cursor.close()
-
+#灌灌灌灌
 class LoginHandler(RequestHandler):
     def get(self):
         self.render('login.html')
